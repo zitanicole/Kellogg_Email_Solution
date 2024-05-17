@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kellogg_Email", "Kellogg_Email\Kellogg_Email.csproj", "{DD9D4F21-81A1-4D21-BA82-AF9A8927230D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailUnitTests", "EmailUnitTests\EmailUnitTests.csproj", "{0AE22E76-7799-4F09-A4CB-98D24CB8E23B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9D4F21-81A1-4D21-BA82-AF9A8927230D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9D4F21-81A1-4D21-BA82-AF9A8927230D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9D4F21-81A1-4D21-BA82-AF9A8927230D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9D4F21-81A1-4D21-BA82-AF9A8927230D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE22E76-7799-4F09-A4CB-98D24CB8E23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE22E76-7799-4F09-A4CB-98D24CB8E23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE22E76-7799-4F09-A4CB-98D24CB8E23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE22E76-7799-4F09-A4CB-98D24CB8E23B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39744AFE-81B0-4896-80AF-7512D6D4D64D}
+	EndGlobalSection
+EndGlobal

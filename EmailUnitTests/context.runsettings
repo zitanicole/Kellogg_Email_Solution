@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="1" value="email@email.com" />
+		<Parameter name="2" value="" />
+	</TestRunParameters>
+<LoggerRunSettings>
+	<Loggers>
+		<Logger friendlyName="console" enabled="True">
+			<Configuration>
+				<Verbosity>quiet</Verbosity>
+			</Configuration>
+		</Logger>
+		<Logger friendlyName="trx" enabled="True">
+			<Configuration>
+				<LogFileName>foo.trx</LogFileName>
+			</Configuration>
+		</Logger>
+		<Logger friendlyName="html" enabled="True">
+			<Configuration>
+				<LogFileName>Kellogg_Report.html</LogFileName>
+			</Configuration>
+		</Logger>
+	</Loggers>
+</LoggerRunSettings>
+</RunSettings>
