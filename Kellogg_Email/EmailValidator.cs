@@ -13,7 +13,11 @@ namespace Kellogg_Email
             if (string.IsNullOrEmpty(email))
                 return false;
 
-            return true;
+            int indexOfAt = email.IndexOf("@");
+            if (indexOfAt <= 0 || indexOfAt != email.LastIndexOf('@'))
+                return false;
+
+                return true;
         }
     }
 }

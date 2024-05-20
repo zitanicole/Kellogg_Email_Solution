@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RunSettings>
 	<TestRunParameters>
-		<Parameter name="1" value="email@email.com" />
-		<Parameter name="2" value="" />
+		<Parameter name="valid1" value="email@email.com" />
+		<Parameter name="invalid1" value="" />
+		<Parameter name="valid2" value="onlyone@atsymbol.com" />
 	</TestRunParameters>
 <LoggerRunSettings>
 	<Loggers>
