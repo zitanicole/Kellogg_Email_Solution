@@ -1,9 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RunSettings>
 	<TestRunParameters>
+		<Parameter name="null" value='null' />
 		<Parameter name="valid1" value="email@email.com" />
 		<Parameter name="invalid1" value="" />
 		<Parameter name="valid2" value="onlyone@atsymbol.com" />
+		<Parameter name="invalid2" value="atsymbol.com" />
+		<Parameter name="invalid3" value="more@thanone@atsymbol.com" />
+		<Parameter name="invalid13" value="theresa@space.com" />
+		<Parameter name="invalid4" value="theres a@space.com" />
+		<Parameter name="invalid14" value="@space.com" />
+		<Parameter name="invalid15" value="char@valid.com" />
+		<Parameter name="invalid16" value="c@valid.com" />
+		<Parameter name="invalid5" value="qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm@email.com" />
+		<Parameter name="invalid6" value="domaintooshort@e." />
+		<Parameter name="invalid7" value="domain@qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm.com" />
+		<Parameter name="invalid8" value="@space.com" />
+		<Parameter name="invalid9" value="space.com@" />
+		<Parameter name="invalid10" value="period@.com" />
+		<Parameter name="invalid11" value="period@com" />
+		<Parameter name="invalid12" value="period@.com." />
+		<Parameter name="valid3" value="valid@email.com" />
+
+		<Parameter name="char1" value="1char@email.com" />
+		<Parameter name="char2" value="char1@email.com" />
+		<Parameter name="char3" value="char@1mail.com" />
+		<Parameter name="char4" value="char@email.com1" />
+		<Parameter name="char5" value="charvalid@email.com" />
+		<Parameter name="char6" value="char1valid@email.com" />
+		<Parameter name="char7" value="charvalid@email1.com" />
+		<Parameter name="char8" value="char2valid@email.com" />
+
+		<!--<Parameter name="tru1" value="charvalid@email.com" />
+		<Parameter name="tru2" value="char1valid@email.com" />
+		<Parameter name="tru3" value="charvalid@email1.com" />
+		<Parameter name="tru4" value="char2valid@email.com" />-->
 	</TestRunParameters>
 <LoggerRunSettings>
 	<Loggers>
