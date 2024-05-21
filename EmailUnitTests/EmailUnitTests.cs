@@ -230,5 +230,37 @@ namespace EmailUnitTests
             bool result = EmailValidator.IsValidEmail(email);
             Assert.IsTrue(result);
         }
+
+        [TestMethod]
+        public void tru1_IsTrue()
+        {
+            string email = GetTestSetting<string>("tru1", "tru1e@val.com");
+            bool result = EmailValidator.IsValidEmail(email);
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void tru2_IsTrue()
+        {
+            string email = GetTestSetting<string>("tru2", "tru2e@val.com");
+            bool result = EmailValidator.IsValidEmail(email);
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void tru3_IsTrue()
+        {
+            string email = GetTestSetting<string>("tru3", "tru3e@val.com");
+            bool result = EmailValidator.IsValidEmail(email);
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void tru4_IsTrue()
+        {
+            string email = GetTestSetting<string>("tru4", "tru4e@val.com");
+            bool result = EmailValidator.IsValidEmail(email);
+            Assert.IsTrue(result);
+        }
     }
 }

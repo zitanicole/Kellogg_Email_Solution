@@ -31,10 +31,10 @@
 		<Parameter name="char7" value="charvalid@email1.com" />
 		<Parameter name="char8" value="char2valid@email.com" />
 
-		<!--<Parameter name="tru1" value="charvalid@email.com" />
-		<Parameter name="tru2" value="char1valid@email.com" />
-		<Parameter name="tru3" value="charvalid@email1.com" />
-		<Parameter name="tru4" value="char2valid@email.com" />-->
+		<Parameter name="tru1" value="tru1e@val.com" />
+		<Parameter name="tru2" value="tru2e@val.com" />
+		<Parameter name="tru3" value="tru3e@val.com" />
+		<Parameter name="tru4" value="tru4e@val.com" />
 	</TestRunParameters>
 <LoggerRunSettings>
 	<Loggers>
